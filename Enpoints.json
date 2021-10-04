@@ -1,8 +1,8 @@
 {
 	"info": {
-		"_postman_id": "53ad8909-d14b-4dd3-83a8-1f830db789c3",
+		"_postman_id": "f9dcb098-83c7-4082-bbd4-0fbcc28911f9",
 		"name": "Laravel_Collection",
-		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
 	},
 	"item": [
 		{
@@ -13,13 +13,9 @@
 					"request": {
 						"auth": {
 							"type": "bearer",
-							"bearer": [
-								{
-									"key": "token",
-									"value": "{{token}}",
-									"type": "string"
-								}
-							]
+							"bearer": {
+								"token": "{{token}}"
+							}
 						},
 						"method": "GET",
 						"header": [],
@@ -47,13 +43,9 @@
 					"request": {
 						"auth": {
 							"type": "bearer",
-							"bearer": [
-								{
-									"key": "token",
-									"value": "{{token}}",
-									"type": "string"
-								}
-							]
+							"bearer": {
+								"token": "{{token}}"
+							}
 						},
 						"method": "POST",
 						"header": [],
@@ -66,15 +58,7 @@
 								}
 							}
 						},
-						"url": {
-							"raw": "{{api_url}}/products",
-							"host": [
-								"{{api_url}}"
-							],
-							"path": [
-								"products"
-							]
-						}
+						"url": "{{api_url}}/products"
 					},
 					"response": []
 				},
@@ -83,13 +67,9 @@
 					"request": {
 						"auth": {
 							"type": "bearer",
-							"bearer": [
-								{
-									"key": "token",
-									"value": "{{token}}",
-									"type": "string"
-								}
-							]
+							"bearer": {
+								"token": "{{token}}"
+							}
 						},
 						"method": "PATCH",
 						"header": [],
@@ -102,16 +82,7 @@
 								}
 							}
 						},
-						"url": {
-							"raw": "{{api_url}}/products/12",
-							"host": [
-								"{{api_url}}"
-							],
-							"path": [
-								"products",
-								"12"
-							]
-						}
+						"url": "{{api_url}}/products/12"
 					},
 					"response": []
 				},
@@ -120,26 +91,13 @@
 					"request": {
 						"auth": {
 							"type": "bearer",
-							"bearer": [
-								{
-									"key": "token",
-									"value": "{{token}}",
-									"type": "string"
-								}
-							]
+							"bearer": {
+								"token": "{{token}}"
+							}
 						},
 						"method": "DELETE",
 						"header": [],
-						"url": {
-							"raw": "{{api_url}}/products/1",
-							"host": [
-								"{{api_url}}"
-							],
-							"path": [
-								"products",
-								"1"
-							]
-						}
+						"url": "{{api_url}}/products/1"
 					},
 					"response": []
 				},
@@ -148,26 +106,13 @@
 					"request": {
 						"auth": {
 							"type": "bearer",
-							"bearer": [
-								{
-									"key": "token",
-									"value": "{{token}}",
-									"type": "string"
-								}
-							]
+							"bearer": {
+								"token": "{{token}}"
+							}
 						},
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{api_url}}/products/",
-							"host": [
-								"{{api_url}}"
-							],
-							"path": [
-								"products",
-								""
-							]
-						}
+						"url": "{{api_url}}/products/"
 					},
 					"response": []
 				}
@@ -181,13 +126,9 @@
 					"request": {
 						"auth": {
 							"type": "bearer",
-							"bearer": [
-								{
-									"key": "token",
-									"value": "{{token}}",
-									"type": "string"
-								}
-							]
+							"bearer": {
+								"token": "{{token}}"
+							}
 						},
 						"method": "POST",
 						"header": [],
@@ -200,15 +141,7 @@
 								}
 							}
 						},
-						"url": {
-							"raw": "{{api_url}}/register",
-							"host": [
-								"{{api_url}}"
-							],
-							"path": [
-								"register"
-							]
-						}
+						"url": "{{api_url}}/register"
 					},
 					"response": []
 				},
@@ -229,13 +162,9 @@
 					"request": {
 						"auth": {
 							"type": "bearer",
-							"bearer": [
-								{
-									"key": "token",
-									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8xMjcuMC4wLjE6ODAwMFwvYXBpXC92MVwvbG9naW4iLCJpYXQiOjE2MTA3NzYwNTksImV4cCI6MTYxMDc3OTY1OSwibmJmIjoxNjEwNzc2MDU5LCJqdGkiOiJDVXdNMlhHc2ZGS1VqTmRuIiwic3ViIjoxLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.9332bm1y2zqJF36BwE_Q7B5WlHppzqTCgAaaI-DG23s",
-									"type": "string"
-								}
-							]
+							"bearer": {
+								"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8xMjcuMC4wLjE6ODAwMFwvYXBpXC92MVwvbG9naW4iLCJpYXQiOjE2MTA3NzYwNTksImV4cCI6MTYxMDc3OTY1OSwibmJmIjoxNjEwNzc2MDU5LCJqdGkiOiJDVXdNMlhHc2ZGS1VqTmRuIiwic3ViIjoxLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.9332bm1y2zqJF36BwE_Q7B5WlHppzqTCgAaaI-DG23s"
+							}
 						},
 						"method": "POST",
 						"header": [],
@@ -248,15 +177,7 @@
 								}
 							}
 						},
-						"url": {
-							"raw": "{{api_url}}/login",
-							"host": [
-								"{{api_url}}"
-							],
-							"path": [
-								"login"
-							]
-						}
+						"url": "{{api_url}}/login"
 					},
 					"response": []
 				},
@@ -265,13 +186,9 @@
 					"request": {
 						"auth": {
 							"type": "bearer",
-							"bearer": [
-								{
-									"key": "token",
-									"value": "{{token}}",
-									"type": "string"
-								}
-							]
+							"bearer": {
+								"token": "{{token}}"
+							}
 						},
 						"method": "PATCH",
 						"header": [],
@@ -284,16 +201,7 @@
 								}
 							}
 						},
-						"url": {
-							"raw": "{{api_url}}/user/1",
-							"host": [
-								"{{api_url}}"
-							],
-							"path": [
-								"user",
-								"1"
-							]
-						}
+						"url": "{{api_url}}/user/1"
 					},
 					"response": []
 				},
@@ -302,25 +210,13 @@
 					"request": {
 						"auth": {
 							"type": "bearer",
-							"bearer": [
-								{
-									"key": "token",
-									"value": "{{token}}",
-									"type": "string"
-								}
-							]
+							"bearer": {
+								"token": "{{token}}"
+							}
 						},
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{api_url}}/user",
-							"host": [
-								"{{api_url}}"
-							],
-							"path": [
-								"user"
-							]
-						}
+						"url": "{{api_url}}/user"
 					},
 					"response": []
 				},
@@ -329,26 +225,13 @@
 					"request": {
 						"auth": {
 							"type": "bearer",
-							"bearer": [
-								{
-									"key": "token",
-									"value": "{{token}}",
-									"type": "string"
-								}
-							]
+							"bearer": {
+								"token": "{{token}}"
+							}
 						},
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{api_url}}/user/1",
-							"host": [
-								"{{api_url}}"
-							],
-							"path": [
-								"user",
-								"1"
-							]
-						}
+						"url": "{{api_url}}/user/1"
 					},
 					"response": []
 				}
@@ -378,7 +261,7 @@
 	"variable": [
 		{
 			"key": "api_url",
-			"value": "https://warm-escarpment-23462.herokuapp.com/api/v1"
+			"value": "http://127.0.0.1:8000/api/v1"
 		}
 	]
 }
